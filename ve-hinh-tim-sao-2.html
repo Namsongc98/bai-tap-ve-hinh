@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      //tạo hàng
+      for (row = 1; row < 10; row++) {
+        //tạo cột
+        // hang 1: arrStart = [3, 4, 5, 9, 10, 11]
+        if (row == 1) {
+          const arrStar = [3, 4, 5, 9, 10, 11];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang2: arrStart = [2, 6, 8, 12]
+        if (row == 2) {
+          const arrStar = [2, 6, 8, 12];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang3: arrStart = [1, 7, 13]
+        if (row == 3) {
+          const arrStar = [1, 7, 13];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang4: arrStart = [2, 12]
+        if (row == 4) {
+          const arrStar = [2, 12];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang5: arrStart = [3, 11]
+        if (row == 5) {
+          const arrStar = [3, 11];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang6: arrStart = [4, 10]
+        if (row == 6) {
+          const arrStar = [4, 10];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang7: arrStart = [5, 9]
+        if (row == 7) {
+          const arrStar = [5, 9];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang8: arrStart = [6, 8]
+        if (row == 8) {
+          const arrStar = [6, 8];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        // hang9: arrStart = [7]
+        if (row == 9) {
+          const arrStar = [7];
+          for (let column = 1; column < 14; column++) {
+            if (arrStar.includes(column)) {
+              document.write("*");
+            } else {
+              document.write("&nbsp;&nbsp;");
+            }
+          }
+        }
+        document.write("<br>");
+      }
+    </script>
+  </body>
+</html>
